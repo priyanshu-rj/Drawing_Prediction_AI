@@ -1,0 +1,84 @@
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/premium-photo/artistic-drawing-painting-tools-copy-space-background_333547-18899.jpg?w=1380');
+    background-size: 100% 100%; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    padding: 1.5rem;
+    transition: background 0.5s ease-in-out;
+}
+
+
+  
+
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #ffffff; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+ 
+  .canvas {
+    border-radius: 8px;
+    background-color: white;
+    cursor: crosshair;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+  }
+  
+ 
+  .canvas:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  .button {
+    background-color: #3182ce;
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out; 
+  }
+  
+  
+  .button:hover {
+    background-color: #2b6cb0;
+    transform: scale(1.05); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .clear-button {
+    background-color: #4a5568;
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+ 
+  .clear-button:hover {
+    background-color: #2d3748;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
